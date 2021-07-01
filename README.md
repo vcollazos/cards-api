@@ -14,3 +14,17 @@ Parsea el JSON recibido de la petición GET para informar en la vista de la apli
 
 1. ID del mazo obtenido
 2. Cartas restantes
+
+# Requisito 2
+Usa un tipo de letra [High-Impact Vernecular Display](https://fonts.google.com/featured/High-Impact+Vernacular+Display) en toda la aplicación
+
+# Requisito 3: Tomar una carta
+
+Haz visibles los botones Tomar Carta y Plantarse.
+Al hacer click hay que tomar una carta de nuestra baraja.
+Investiga como usar la API para tomar una carta de una baraja indetificada con el ID de baraja que hemos obtenido
+
+# Requisito 4: Sumar el valor de la carta
+
+Siguiendo las reglas de BlackJack; lleva un computo del valor de las cartas obtenido hasta ahora.
+Guarda la información en el estado de la aplicación, pero asegurate que también existe información visual.

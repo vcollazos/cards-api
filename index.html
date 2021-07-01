@@ -1,29 +1,54 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Creepster', cursive;
+        }
+    </style>
     <title>Blackjack!</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <h1>Blackjack!</h1>
     <main class="container">
         <section class="container">
             <div class="row">
-            <button type="button" class="btn btn-primary col-4">Empezar juego nuevo</button>
+                <div class="col">
+                    <p>ID Deck: <span class="text-info" id="deck_id"></span></p>
+                    <p>Remaining cards: <span class="text-info" id="remaining_cards"></span></p>
 
-            <button type="button" class="btn btn-success col-4">Otra Carta</button>
-            <button type="button" class="btn btn-danger col-4">Plantarme</button>
-        </div>
+                </div>
+            </div>
+            </section>
+        <section class="container">
+            <div class="row">
+                <button id="start" type="button" class="btn btn-primary col-4">Empezar juego nuevo</button>
+
+                <button id="draw" type="button" class="btn btn-success col-4 d-none">Otra Carta</button>
+                <button id="stop" type="button" class="btn btn-danger col-4 d-none">Plantarme</button>
+            </div>
+        </section>
+        <section id="cards" class="container">
+
         </section>
     </main>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
