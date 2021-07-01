@@ -7,7 +7,7 @@ Para implementar la aplicación, vamos a utilizar solo HTML y JavaScript. Las ba
 
 [Video demostrativo](https://oscarm.tinytake.com/tt/NTU3MDc3Nl8xNzM0NTMyNw)
 
-## Requisito 1
+## Requisito 1: Obtener una nueva baraja de la API e inicializar aplicación
 
 Al hacer click en "Empezar juego", generamos una nueva baraja.
 Para ello, hay que hacer una peticion GET a https://deckofcardsapi.com/api/deck/new/shuffle/. Como parámetro de QueryString, le pasaremos uno de nombre __deck_count__; que siempre valdra 1 (pues solo queremos obtener una baraja).
@@ -17,7 +17,7 @@ Parsea el JSON recibido de la petición GET para informar en la vista de la apli
 1. ID del mazo obtenido
 2. Cartas restantes
 
-# Requisito 2
+# Requisito 2: Añadir fuentes de Google Font
 Usa un tipo de letra [High-Impact Vernecular Display](https://fonts.google.com/featured/High-Impact+Vernacular+Display) en toda la aplicación
 
 # Requisito 3: Tomar una carta
