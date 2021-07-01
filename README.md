@@ -5,6 +5,8 @@ Después el ordenador tomará cartas hasta plantarse también
 
 Para implementar la aplicación, vamos a utilizar solo HTML y JavaScript. Las barajas y las imágenes las obtendremos de la siguiente API - [Enlace](http://deckofcardsapi.com/)
 
+[Video demostrativo](https://oscarm.tinytake.com/tt/NTU3MDc3Nl8xNzM0NTMyNw)
+
 ## Requisito 1
 
 Al hacer click en "Empezar juego", generamos una nueva baraja.
