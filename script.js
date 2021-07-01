@@ -23,8 +23,12 @@ async function startGame() {
     id_deck= datos.deck_id;
     document.querySelector('#remaining_cards').textContent = datos.remaining;
     remaining_cards = datos.remaining;
-    document.querySelector('#draw').classList.remove('d-none');
-    document.querySelector('#stop').classList.remove('d-none');
+    document.querySelector('#start').classList.add('d-none');
+    setTimeout(()=> {
+        document.querySelector('#draw').classList.remove('d-none');
+        document.querySelector('#stop').classList.remove('d-none');
+    }, 2000)
+
 
     document.querySelector('#draw').onclick = () => { drawCard();}
 }
