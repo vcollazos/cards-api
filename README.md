@@ -1,6 +1,6 @@
 # Blackjack
 
-Vamos a implementar un jugo de blackjack. Primero empieza el jugador, y tomará cartas hasta plantarse.
+Vamos a implementar un juego de blackjack. Primero empieza el jugador, y tomará cartas hasta plantarse.
 Después el ordenador tomará cartas hasta plantarse también
 
 Para implementar la aplicación, vamos a utilizar solo HTML y JavaScript. Las barajas y las imágenes las obtendremos de la siguiente API - [Enlace](http://deckofcardsapi.com/)
